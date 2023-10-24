@@ -15,6 +15,7 @@
     --blue: #57cbff;
     --font:'Instrument Sans', sans-serif; 
     --font2:'Sometype Mono', monospace;
+    --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
 }
 *{box-sizing: border-box;}
 
@@ -27,10 +28,31 @@ body {
     background-color: var(--navy);
 }
 
+.top-nav-link {
+    font-family: var(--font2);
+    color: var(--light-slate);
+}
+
+.top-nav-link:hover {
+    color: #64ffda;
+}
+
 .sub-heading {
     font-family: var(--font);
     color: var(--light-slate);
+}
+
+#nameHeading, #titleHeading {
     font-size: 80px;
+}
+
+#aboutSection {
+    margin-top: 200px;
+    padding-bottom: 100px;
+}
+
+#aboutHeading {
+    font-size: 40px;
 }
 
 .heading {
@@ -40,10 +62,10 @@ body {
 .heading-text {
     color: var(--slate);
     font-family: var(--font2);
-    font-size: 17px;
+    font-size: 18px;
 }
 
-.about-text {
+.text {
     color: var(--slate);
     font-family: var(--font2);
     font-size: 17px;
@@ -57,3 +79,83 @@ body {
     text-decoration: none;
     color: var(--green);
 }
+
+.academy-link:hover {
+    border-bottom: 1px solid #64ffda;
+}
+
+#aboutContainer {
+    position: relative;
+}
+
+#skill-items2 {
+    position: absolute;
+    left: 150px;
+    /* bottom: 0px; */
+    top: 477px;
+
+}
+
+.skill {
+    color: #ccd6f6;
+}
+
+.skill-items {
+    position: relative;
+    list-style-type: none;
+}
+
+.bi-caret-right {
+    position: absolute;
+    left: 15px;
+    margin-top: 6px;
+    color: #64ffda;
+}
+
+.project-div {
+    width: 410px;
+    height: 410px;
+    background-color: var(--light-navy);
+}
+
+#projectSection {
+    padding-top: 100px;
+}
+
+.project {
+    font-family: var(--font);
+    color: var(--light-slate);
+}
+
+.project-div:hover {
+    color: var(--green);
+    transition: all 0.8s ease;
+}
+
+.material-list {
+    margin-left: 30px;
+}
+
+#materialText2 {
+    margin-left: 20px;
+}
+
+.project-heading {
+    margin: 28px;
+    margin-bottom: 20px;
+}
+
+#projectText {
+    margin-left: 28px;
+    padding-bottom: 70px;
+}
+
+.bi-folder2-open {
+    margin: 28px;
+    color: var(--green);
+}
+
+
+
+
+

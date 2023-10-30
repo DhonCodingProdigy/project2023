@@ -5,7 +5,7 @@
     --lightest-navy: #233554;
     --navy-shadow: rgba(2,12,27,0.7);
     --dark-slate: #495670;
-    --slate: #8892b0;
+    --slate: #ccd6f6;
     --light-slate: #a8b2d1;
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
@@ -15,7 +15,7 @@
     --blue: #57cbff;
     --font:'Instrument Sans', sans-serif; 
     --font2:'Sometype Mono', monospace;
-    --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    --font3:'Gochi Hand', cursive;
 }
 *{box-sizing: border-box;}
 
@@ -27,8 +27,14 @@ body {
     background-color: var(--navy);
 }
 
+
+
 .header {
     padding-bottom: 70px;
+}
+
+.heading {
+    font-family: var(--font3);
 }
 
 
@@ -88,31 +94,11 @@ body {
     border-bottom: 1px solid #64ffda;
 }
 
-#aboutContainer {
-    position: relative;
-}
-
-#skill-items2 {
-    position: absolute;
-    left: 150px;
-    /* bottom: 0px; */
-    top: 477px;
-
-}
-
 .skill {
     color: #ccd6f6;
 }
 
-.skill-items {
-    position: relative;
-    list-style-type: none;
-}
-
 .bi-caret-right {
-    position: absolute;
-    left: 15px;
-    margin-top: 6px;
     color: #64ffda;
 }
 
@@ -124,6 +110,7 @@ body {
 
 #projectSection {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .project {
@@ -156,6 +143,21 @@ body {
 
 .bi-folder2-open {
     margin: 28px;
+    color: var(--green);
+}
+
+#contactSection {
+    padding-top: 100px;
+}
+
+.contact-text {
+    font-size: 20px;
+    color: var(--lightest-slate);
+    border-bottom:1px solid #64ffda;
+
+}
+
+.bi-envelope-at-fill, .bi-linkedin, .bi-github {
     color: var(--green);
 }
 

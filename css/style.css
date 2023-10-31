@@ -123,6 +123,22 @@ body {
     transition: all 0.8s ease;
 }
 
+.project-heading {
+    margin: 28px;
+    margin-bottom: 20px; 
+}
+
+#projectText {
+    margin-left: 28px;
+    padding-bottom: 70px;
+}
+.project-div {
+    transition: 0.5s all ease-in-out;
+}
+
+.project-div:hover {
+    transform: scale(0.88);
+}
 .material-list {
     margin-left: 30px;
 }
@@ -131,15 +147,6 @@ body {
     margin-left: 20px;
 }
 
-.project-heading {
-    margin: 28px;
-    margin-bottom: 20px;
-}
-
-#projectText {
-    margin-left: 28px;
-    padding-bottom: 70px;
-}
 
 .bi-folder2-open {
     margin: 28px;
@@ -160,6 +167,7 @@ body {
 .bi-envelope-at-fill, .bi-linkedin, .bi-github {
     color: var(--green);
 }
+
 
 
 

@@ -168,6 +168,51 @@ body {
     color: var(--green);
 }
 
+.preview-div {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.restaurant-preview {
+    position: absolute;
+    z-index: 999;
+    bottom: 60px;
+    right: 80px;
+}
+
+/* .restaurant-code-preview {
+    position: absolute;
+    
+} */
+
+.roller-store {
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    bottom: 62px;
+}
+
+.roller-store-code {
+    position: absolute;
+    left: 80px;
+}
+
+.smoothie-shop {
+    position: absolute;
+    z-index: 999;
+    bottom: 60px;
+    left: 85px;
+}
+
+.smoothie-shop-code {
+    position: absolute;
+    left: 120px;
+}
+
+
+
+
 
 
 

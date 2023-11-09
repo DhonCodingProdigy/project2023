@@ -20,7 +20,7 @@
 *{box-sizing: border-box;}
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 body {
@@ -35,6 +35,10 @@ body {
 
 .heading {
     font-family: var(--font3);
+}
+
+#nameHeading {
+    font-size: calc(14px + (18 - 14) * ((100vw - 768px) / (1920 - 768)));
 }
 
 
@@ -103,13 +107,19 @@ body {
 }
 
 .project-div {
-    width: 410px;
-    height: 410px;
+    width: 100%;
     background-color: var(--light-navy);
+    transition: 0.5s all ease-in-out;
+}
+
+@media (max-width: 767px) {
+    #projectDiv1, #projectDiv2, #projectDiv3 {
+        margin-top: 40px;
+    }
 }
 
 #projectSection {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
 }
 
@@ -121,31 +131,24 @@ body {
 .project-div:hover {
     color: var(--green);
     transition: all 0.8s ease;
+    transform: scale(0.88);
 }
 
 .project-heading {
-    margin: 28px;
-    margin-bottom: 20px; 
+    margin: 28px 20px; 
 }
 
 #projectText {
-    margin-left: 28px;
     padding-bottom: 70px;
+    margin: 0 20px;
 }
-.project-div {
-    transition: 0.5s all ease-in-out;
-}
-
-.project-div:hover {
-    transform: scale(0.88);
-}
-.material-list {
+/* .material-list {
     margin-left: 30px;
 }
 
 #materialText2 {
     margin-left: 20px;
-}
+} */
 
 
 .bi-folder2-open {
@@ -160,7 +163,7 @@ body {
 .contact-text {
     font-size: 20px;
     color: var(--lightest-slate);
-    border-bottom:1px solid #64ffda;
+    border-bottom: 1px solid #64ffda;
 
 }
 
@@ -168,51 +171,73 @@ body {
     color: var(--green);
 }
 
-.preview-div {
+/* .preview-div {
     position: relative;
     width: 400px;
     height: 400px;
-}
+} */
 
-.restaurant-preview {
+/* .restaurant-preview {
     position: absolute;
     z-index: 999;
     bottom: 60px;
     right: 80px;
-}
+} */
 
 /* .restaurant-code-preview {
     position: absolute;
     
 } */
 
-.roller-store {
+/* .roller-store {
     position: absolute;
     z-index: 999;
     left: 0px;
     bottom: 62px;
-}
+} */
 
-.roller-store-code {
+/* .roller-store-code {
     position: absolute;
     left: 80px;
-}
+} */
 
-.smoothie-shop {
+/* .smoothie-shop {
     position: absolute;
     z-index: 999;
-    bottom: 60px;
+    bottom: 0;
     left: 85px;
-}
+} */
 
-.smoothie-shop-code {
+/* .smoothie-shop-code {
     position: absolute;
     left: 120px;
+    bottom: 0
+} */
+
+.preview-div {
+    position: relative;
+    width: 100%;
+    height: 200px;
 }
 
+.preview-img, .code-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 
+.code-img {
+    top: 0;
+    left: 0;
+    margin: 0 20px;
+}
 
-
+.preview-img {
+    top: 50%;
+    left: 5%;
+    z-index: 2;
+    margin: 0 20px;
+}
 
 
 

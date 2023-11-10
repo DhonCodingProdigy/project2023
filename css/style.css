@@ -142,14 +142,6 @@ body {
     padding-bottom: 70px;
     margin: 0 20px;
 }
-/* .material-list {
-    margin-left: 30px;
-}
-
-#materialText2 {
-    margin-left: 20px;
-} */
-
 
 .bi-folder2-open {
     margin: 28px;
@@ -170,49 +162,6 @@ body {
 .bi-envelope-at-fill, .bi-linkedin, .bi-github {
     color: var(--green);
 }
-
-/* .preview-div {
-    position: relative;
-    width: 400px;
-    height: 400px;
-} */
-
-/* .restaurant-preview {
-    position: absolute;
-    z-index: 999;
-    bottom: 60px;
-    right: 80px;
-} */
-
-/* .restaurant-code-preview {
-    position: absolute;
-    
-} */
-
-/* .roller-store {
-    position: absolute;
-    z-index: 999;
-    left: 0px;
-    bottom: 62px;
-} */
-
-/* .roller-store-code {
-    position: absolute;
-    left: 80px;
-} */
-
-/* .smoothie-shop {
-    position: absolute;
-    z-index: 999;
-    bottom: 0;
-    left: 85px;
-} */
-
-/* .smoothie-shop-code {
-    position: absolute;
-    left: 120px;
-    bottom: 0
-} */
 
 .preview-div {
     position: relative;
